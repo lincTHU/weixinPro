@@ -1,0 +1,249 @@
+﻿
+body
+{
+	background-color: rgb(30,35,41);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 0 0 0 0;
+	font-family: "微软雅黑";
+}
+
+ul{
+	padding-left: 0px;
+	list-style-type:none;
+}
+
+#front
+{
+	background-image: url(../img/seat/wutai.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 50%;
+}
+/**********一层**************/
+#floor1
+{
+	background-image: url(../img/seat/floor1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 76%;
+	padding: 3%;
+}
+
+#f1_A
+{
+	background-image: url(../img/seat/f1_A.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45%;
+	float: left;
+	margin-left: 35px;
+}
+
+#f1_B
+{
+	background-image: url(../img/seat/f1_B.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45%;
+	float: left;
+}
+
+#f1_C
+{
+	background-image: url(../img/seat/f1_C.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45%;
+	float: right;
+	margin-left: 18px;
+}
+
+#f1_D
+{
+	background-image: url(../img/seat/f1_D.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 50%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#f1_E
+{
+	background-image: url(../img/seat/f1_E.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45%;
+	float: left;
+	margin-top: 10px;
+}
+
+#f1_F
+{
+	background-image: url(../img/seat/f1_F.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45%;
+	float: right;
+	margin-top: 10px;
+}
+/**********二层**************/
+#floor2
+{
+	background-image: url(../img/seat/floor2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 80%;
+}
+
+#f2_A
+{
+	background-image: url(../img/seat/f2_A.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 27%;
+	float: left;
+	margin-left: 12px;
+	margin-top: 28px;
+	margin-bottom: 6px;
+}
+
+#f2_B
+{
+	background-image: url(../img/seat/f2_B.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 30%;
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+#f2_C
+{
+	background-image: url(../img/seat/f2_C.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 30%;
+	float: right;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+#f2_D
+{
+	background-image: url(../img/seat/f2_D.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 35%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#f2_E
+{
+	background-image: url(../img/seat/f2_E.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 40%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5%;
+}
+
+#f2_F
+{
+	background-image: url(../img/seat/f2_F.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 40%;
+	float: right;
+	margin-top: 10px;
+	margin-right: 5%;
+}
+/**********其余**************/
+#otherArea
+{
+	background-image: url(../img/seat/otherArea.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 80%;
+	height: 100px;
+}
+
+/**********购票信息**************/
+#info_Area
+{
+	width: 80%;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2em;
+	color: rgb(150,150,150);
+	
+}
+
+#item, #info{
+	width: 50%;
+}
+#item{
+	float: left;
+}
+
+#info{
+	float: right;
+}
+
+#info ul{
+	text-align: right;
+}
+
+#item ul{
+	text-align: left;
+} 
+
+#bottom {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-image: url(../img/seat/bottom.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 2.5em;
+	color: rgb(200,200,200);
+}
+
+#save
+{
+	text-align: center;
+	float: left;
+	margin-left: 7%;
+}
+
+#submit{
+	text-align: center;
+	float: right;
+	margin-right: 14%;
+}
+
+#save, #submit{
+	margin-top: 10%;
+}
