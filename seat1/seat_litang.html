@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>紫荆之声-抢票选座</title>
+	<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="style/css" href="css/seat_litang.css">
+	<script src="js/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+	<div id = "front"></div>
+	<div id = "seat_Intro">
+		<span>
+		<i class = "sign_Stu"></i>
+		<a>学生特惠票</a>
+		</span>
+		<span>
+		<i class = "sign_Normal"></i>
+		<a>普通票</a>
+		</span>
+		<span>
+		<i class = "sign_Cannot"></i>
+		<a>不可选</a>
+		</span>
+	</div>
+	<iframe src="seat_info.html" id="frame"></iframe>
+	<div id = "info_Area">
+		<div id = "item">
+			<ul>
+				<li>接受订票时间：</li>
+				<li>当前活动状态：</li>
+				<li>您已选择的订票详情为：</li>
+			</ul>
+		</div>
+		<div id = "info">
+			<ul>
+				<li id = "book_time"></li>
+				<li id = "ticket_state">可选座/可订票</li>
+				<li id = "seat_info">无</li>
+			</ul>
+		</div>
+	</div>
+	<div id = "buttom">
+		<div id = "buttom_frame">
+			<i class = "icon-heart-empty buttom_icon" ></i>
+			<a>提交选座信息</a>
+		</div>
+	</div>
+	<div id = "submitArea" style="display:none;"></div>
+</body>
+	<script>
+		//test
+		var ticket_id = "12345678901234567890123456789012"
+		var book_time = "2014/11/13/8:00";
+		var ticketLeft = new Array(new Array());
+		ticketLeft[0] = ['01', '03', '07', '09'];
+		ticketLeft[1] = ['02', '05'];
+		ticketLeft[2] = ['25', '30'];
+		ticketLeft[3] = ['14', '24'];
+	</script>
+	<script src="js/touch.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="js/floor_litang.js" type="text/javascript" charset="utf-8" async defer></script>
+</html>
