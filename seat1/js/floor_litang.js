@@ -1,10 +1,12 @@
 ﻿$(document).ready(function() {
 	$('#book_time').html(book_time + "起");
-	seat = document.getElementById('frame').contentWindow.document.getElementById('tb_Seat');
+	// seat = document.getElementById('frame').contentWindow.document.getElementById('tb_Seat');
 });
 
 front = $('#front');
 front.height(0.25*front.width());
+
+$('#seat_Intro').css("font-size", 0.03*screen.width);
 
 frame = $("#frame").width();
 sign = $("[class^=sign]");
@@ -12,7 +14,7 @@ sign.width(frame/20);
 sign.height(0.8*frame/20);
 
 a = $('#frame');
-a.height(a.width()*0.65);
+a.height(a.width()*0.5);
 
 a = $('#buttom');
 b = $('#buttom_frame');

@@ -2,12 +2,16 @@
 // 	$('#tb_Seat A').css()
 // });
 
-tb_Seat = $("#tb_Seat").width();
+tb_Seat = $("#floor1").width();
+$("#tb_Seat").width(tb_Seat);
 seat = $("[class^=seat]");
 seat.width(tb_Seat/55);
 seat.height(0.8 * seat.width());
 seat_w = seat.width();
 seat_h = seat.height();
+
+temp = parent.document.getElementById('tb_Seat');
+console.log(temp);
 
 //更新信息
 $("[class^=seat]").click(function(){
