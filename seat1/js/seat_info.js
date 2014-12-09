@@ -11,6 +11,7 @@ seat_w = seat.width();
 seat_h = seat.height();
 
 temp = parent.document.getElementById('tb_Seat');
+alert(temp);
 console.log(temp);
 
 //更新信息
