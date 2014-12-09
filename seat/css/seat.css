@@ -265,6 +265,6 @@ ul{
 .icon-compass:before { content: '\e805'; } /* '' */
 .icon-heart-empty:before { 
 	content: '\e806'; 
-	top: 10px;
+	top: 12px;
 	} /* '' */
 .icon-export:before { content: '\e807'; } /* '' */

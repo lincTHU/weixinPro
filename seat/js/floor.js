@@ -48,12 +48,12 @@ left = a.width()/2 - b.width()/2;
 topTemp = 1.2*(a.height()/2 - b.height()/2);
 b.css("left", left);
 b.css("top", topTemp);
-topTemp = 0.8*(b.height()/2 - c.height()/2);
+topTemp = (b.height()/2 - c.height()/2);
 c.css("top", topTemp);
 
 
 $("[id^=block] a").css("font-size", 0.04*screen.width);
-$("#info_Area").css("font-size", 0.02*screen.width);
+$("#info_Area").css("font-size", 0.03*screen.width);
 //CSS格式调整结束
 
 $("#block_A a").html("A区(" + ticketLeft.A + ")");
