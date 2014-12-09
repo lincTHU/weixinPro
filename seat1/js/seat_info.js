@@ -10,10 +10,6 @@ seat.height(0.8 * seat.width());
 seat_w = seat.width();
 seat_h = seat.height();
 
-temp = parent.document.getElementById('tb_Seat');
-alert(temp);
-console.log(temp);
-
 //更新信息
 $("[class^=seat]").click(function(){
 	if (this.className.indexOf("seat_Null") != -1 || this.className.indexOf("seat_Cannot") != -1)
