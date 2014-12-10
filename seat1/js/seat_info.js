@@ -1,10 +1,6 @@
-// $(document).ready(function() {
-// 	$('#tb_Seat A').css()
-// });
-
 tb_Seat = $("#tb_Seat").width();
 seat = $("[class^=seat]");
-seat.width(tb_Seat/52);
+seat.width(tb_Seat/50);
 seat.height(0.8 * seat.width());
 seat_w = seat.width();
 seat_h = seat.height();

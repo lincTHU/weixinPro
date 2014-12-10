@@ -171,22 +171,6 @@ td
 	color: rgb(200,200,200);
 }
 
-#save
-{
-	text-align: center;
-	float: left;
-	margin-left: 7%;
-}
-
-#submit{
-	text-align: center;
-	float: right;
-	margin-right: 14%;
-}
-
-#save, #submit{
-	margin-top: 10%;
-}
 
 #frame{
 	width: 100%;
